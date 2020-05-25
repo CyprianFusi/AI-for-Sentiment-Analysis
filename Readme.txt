@@ -2,7 +2,7 @@ Natural Language Processing (NLP) involves the steps in the preparation of langu
 (or computers). In the context of machine and deep learning these are the steps in the preparation of text (or audio) data for training 
 a machine learning algorithm.
 Text data must be converted into vectors of numbers for use by machine learning algorithms during training and inferences. 
-The steps can be many and tidius when working with a huge amount of text data. But fortunetely, when working with deep learning and a large
+The steps can be many and tedius when working with a huge amount of text data. But fortunetely, when working with deep learning and a large
 number of examples, the steps are reduced to only basic transformations: normalization, cleaning, and tokenization. 
 Tensorflow's Keras offers a function, keras.preprocessing.text.Tokenizer, that normalizes, cleans and tokenizes.
 The deep learning layers can do the heavy lifting of determining what information to extract (feature engineering) and process. The main layer 
